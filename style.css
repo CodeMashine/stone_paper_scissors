@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+}
+
+
+.button {
+    /* position: absolute; */
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 50em;
+    border-color:red ;
+}
+
+.oponent_box {
+    /* position: absolute; */
+    margin-top:20px ;
+    text-align: center;
+    margin-left: 50px ;
+}
+
+.oponent{
+    font-style: italic;
+    font-size: large;
+    
+}
+
+
+.result{
+    /* position: flex; */
+    text-align: center;
+    margin-left: 50px ;
+}
