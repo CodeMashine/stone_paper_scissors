@@ -9,12 +9,40 @@
 </head>
 <body>
     <div class ="container">
-    <button class="button stone" data-value="stone"><img  width= 50 src="">stone</button>
-    <button class="button scissors" data-value="scissors"> <img  width= 50 src="">scissors</button>
-    <button class="button paper" data-value="paper"><img width= 50 src="">paper</button>
-    </div>
-    <div class="oponent_box">Oponent choise <span class="oponent"></span></div>
+    <div class="scorecard">
+        <table>
+            <tr>
+                <th colspan="4">Round</th>
+                <th><span class="roundnumber">0</span></th>
+            </tr>
+            <tr>
+                <td>Win</td>
+                <td></td>
+                <td>Loses</td>
+                <td></td>
+                <td>Draw</td>
+            </tr>
+            <tr>
+                <td><span class="winscore">0</span></td>
+                <td></td>
+                <td><span class="losesscore">0</span></td>
+                <td></td>
+                <td><span class="drawscore">0</span></td>
+            </tr>
+        </table>
+        <!-- <div class="round">ROUND <span class="roundnumber">0</span> </div>
+        <div class="win">Win <span>1</span></div>
+        <div class="lose">Lose <span>3</span></div>
+        <div class="draw">Draw <span>8</span></div> -->
+</div>
+    <div class="button"><button class="button_stone" data-value="stone"><img  width= 50 src="">stone</button></div>
+    <div class="button"><button class="button_scissors" data-value="scissors"> <img  width= 50 src="">scissors</button></div>
+    <div class="button"><button class="button_paper" data-value="paper"><img width= 50 src="">paper</button></div>
+    <div class="oponent_box">Oponent choise</br> <span class="oponent">.....</span></div>
+    
+    
     <div class="result">result</div>
+</div>
     <script src = "script.js"></script>
     </body>
 </html>
