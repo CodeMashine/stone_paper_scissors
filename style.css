@@ -1,43 +1,46 @@
-.container{
-    text-align: center;
-    /* display:flex ; */
-    /* flex-direction: column; */
-}
-
-
-.button {
+.container {
     display: flex;
-    /* display: ; */
-    width: 40px ;
-    height:60px ;
-    /* position: absolute; */
+    /* flex-direction:column ; */
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+}
+
+.button,
+.oponent {
+    width: 70px;
+    height: 70px;
     text-align: center;
-    margin: 20px 0px;
+    margin: 2em;
     border-radius: 50em;
-    border-color:red ;
+    border-color: red;
+    background-color: rgba(219, 216, 216, 0.747);
 }
 
-.oponent_box {
-    /* position: absolute; */
-    /* float:left ; */
-
-    text-align: right;
-    margin-left: auto ;
+.oponent {
+    display: flex;
+    align-self: center;
 }
 
-.oponent{
-    font-style: italic;
-    font-size: large;
-    
-}
-
-
-.result{
-    /* position: flex; */
+.result {
+    display: flex;
+    align-self: center;
     text-align: center;
-    margin-left: 50px ;
+    margin-top: 5em;
 }
 
-table{
-    margin:auto ;
+.scorecard {
+    display: flex;
+    align-self: flex-start;
+}
+
+.chooseBtn {
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
 }
